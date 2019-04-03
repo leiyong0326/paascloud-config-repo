@@ -13,13 +13,13 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: paascloud-mq-rabbit
+    host: 192.168.0.49
     port: 5672
     username: guest
     password: guest
   redis:
-    host: paascloud-db-redis
-    password: paascloud@redis
+    host: 192.168.0.63
+    password: 
     port: 6379
     timeout: 0
   datasource:
@@ -40,8 +40,8 @@ spring:
         login-password: admin
   mail:
     host: smtp.163.com
-    username: paascloudTest@163.com
-    password: a123456
+    username: leiyongtest@163.com
+    password: 2835347
     port: 465
     protocol: smtp
     test-connection: false
